@@ -3,9 +3,14 @@
 > Então vc quer ser um dev fullstack na Centrics, certo?
 
 Este desafio consiste em desenvolver uma aplicação que simula um site de anúncios para compra e venda (vc falou OLX?).
+
 Testaremos as suas habilidades de desenvolvedor além de outros aspectos como: qualidade do código, capacidade de abstração, fidelidade na reprodução do layout e boa documentação. 
+
 A stack utilizada no desafio **deve ser** PHP (Laravel) no backend e VueJS no frontend;
+
 E aí, tá afim?
+
+---
 
 ### Instruções
 - Faça um **Fork** deste repositório;

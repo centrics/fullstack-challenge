@@ -18,8 +18,8 @@ E aí, tá afim?
 - No seu projeto, crie um diretório chamado `project`. Todos os arquivos que você criar devem estar dentro desta pasta;
 - A arquitetura da sua aplicação deve ser separada em **backend** e **frontend**, sendo o backend uma API Restful e o front o consumidor dessa API e layout da aplicação;
 - O layout/design do front deve ser o mais fidedigno possível deste [mockup](invision). Estaremos de olho nos `margin` e `padding` - fique atento;
-- Caso necessário, na pasta [Assets](./assets) estão as imagens já exportadas.
-- Assim que concluir, abra um **pull request (PR)** com seu trabalho.
+- Caso necessário, na pasta [Assets](./assets) estão as imagens já exportadas;
+- Assim que concluir, abra um **pull request (PR)** com seu trabalho;
 
 ### Regras do site de anúncios
 - O site é uma lista corrida de anúncios, com **paginação**, **filtros** e **ordenação**;
@@ -42,7 +42,7 @@ E aí, tá afim?
 ### Requisitos - Frontend
 - Utilize VueJS + CSS + HTML5 para fazer o front;
 - Cada ação como trocar de página, filtrar, ordenar a lista ou ir para uma página de anúncio deverá alterar a URL corrente;
-- Vc deverá **componentizar** sua aplicação, criando arquivos .vue para empacotar blocos reutilizáveis de código.
+- Vc deverá **componentizar** sua aplicação, criando arquivos .vue para empacotar blocos reutilizáveis de código;
 
 ### Diferenciais - Backend
 - Boa documentação;
@@ -55,10 +55,10 @@ E aí, tá afim?
 
 ### Diferenciais - Frontend
 - Boa documentação;
-- Utilizar [Vuex](https://vuex.vuejs.org/en/)
+- Utilizar [Vuex](https://vuex.vuejs.org/en/);
 - Uso de pré-processadores CSS ([Sass](http://sass-lang.com), [Less](http://lesscss.org), [Stylus](http://stylus-lang.com));
 - Adaptar a página para dispositivos móveis (torná-la responsiva);
-- Utilizar alguma automatização ([Grunt](http://gruntjs.com), [Gulp](http://gulpjs.com), [NPM Scripts](https://docs.npmjs.com/misc/scripts))
+- Utilizar alguma automatização ([Grunt](http://gruntjs.com), [Gulp](http://gulpjs.com), [NPM Scripts](https://docs.npmjs.com/misc/scripts));
 
 
 ---

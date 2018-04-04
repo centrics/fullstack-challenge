@@ -18,7 +18,7 @@ E aí, tá afim?
 - No seu projeto, crie um diretório chamado `project`. Todos os arquivos que você criar devem estar dentro desta pasta;
 - A arquitetura da sua aplicação deve ser separada em **backend** e **frontend**, sendo o backend uma API Restful e o front o consumidor dessa API e layout da aplicação;
 - O layout/design do front deve ser o mais fidedigno possível deste [mockup](invision). Estaremos de olho nos `margin` e `padding` - fique atento;
-- Caso necessário, na pasta [Assets](./assets) estão as imagens já exportadas;
+- Caso necessário, na pasta [assets](./assets) estão as imagens já exportadas;
 - Assim que concluir, abra um **pull request (PR)** com seu trabalho;
 
 ### Regras do site de anúncios

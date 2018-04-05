@@ -17,7 +17,7 @@ E aí, tá afim?
 - Crie uma branch com o seu nome, no estilo `nome-sobrenome`;
 - No seu projeto, crie um diretório chamado `project`. Todos os arquivos que você criar devem estar dentro desta pasta;
 - A arquitetura da sua aplicação deve ser separada em **backend** e **frontend**, sendo o backend uma API Restful e o front o consumidor dessa API e layout da aplicação;
-- O layout/design do front deve ser o mais fidedigno possível deste [mockup](invision). Estaremos de olho nos `margin` e `padding` - fique atento;
+- O layout/design do front deve ser o mais fidedigno possível deste [mockup](https://invis.io/A6GOUOHD4RW). Estaremos de olho nos `margin` e `padding` - fique atento;
 - Caso necessário, na pasta [assets](./assets) estão as imagens já exportadas;
 - Assim que concluir, abra um **pull request (PR)** com seu trabalho;
 
@@ -41,6 +41,9 @@ E aí, tá afim?
 
 ### Requisitos - Frontend
 - Utilize VueJS + CSS + HTML5 para fazer o front;
+- **Fonte** utilizada: [Roboto](https://www.google.com/fonts/specimen/Roboto);
+- **Ícones** utilizados: [FontAwesome](https://fontawesome.com/)
+- O conteúdo do site deve ficar em um container de 1300px;
 - Cada ação como trocar de página, filtrar, ordenar a lista ou ir para uma página de anúncio deverá alterar a URL corrente;
 - Vc deverá **componentizar** sua aplicação, criando arquivos .vue para empacotar blocos reutilizáveis de código;
 
@@ -57,8 +60,10 @@ E aí, tá afim?
 - Boa documentação;
 - Utilizar [Vuex](https://vuex.vuejs.org/en/);
 - Uso de pré-processadores CSS ([Sass](http://sass-lang.com), [Less](http://lesscss.org), [Stylus](http://stylus-lang.com));
-- Adaptar a página para dispositivos móveis (torná-la responsiva);
 - Utilizar alguma automatização ([Grunt](http://gruntjs.com), [Gulp](http://gulpjs.com), [NPM Scripts](https://docs.npmjs.com/misc/scripts));
+- Adaptar a página para dispositivos móveis (torná-la responsiva);
+- Utilizar algum sistema de grids para layout (linhas e colunas);
+
 
 
 ---

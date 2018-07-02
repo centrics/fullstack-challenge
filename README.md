@@ -1,3 +1,27 @@
+# Quer criar uma startup? Trabalhe em uma primeiro!
+
+Centrics: desenvolve tecnologia e conteúdo para empresas que investem no sucesso do cliente como estratégia de crescimento;
+
+www.centrics.com.br
+Qualquer dúvida, fale com o Matheus (65)99987-7830
+
+# Sobre a vaga
+
+Buscamos pessoas:
+- Com foco no cliente
+- Que buscam o aprendizado contínuo
+- Que sejam autonomas
+- Orientada a dados e resultados
+- Lean
+
+Job description:
+- Resolver problemas relevantes com a tecnologia adequada;
+- Ajudar empresas a crescerem de forma sustentável e prevísivel por meio do sucesso do cliente;
+
+Requisito:
+- Experiência em desenvolvimento web;
+- Php, Laravel, Vue.js;
+
 # Desafio Fullstack: Laravel + VueJS
 
 > Então vc quer ser um dev fullstack na Centrics, certo?
@@ -7,6 +31,8 @@ Este desafio consiste em desenvolver uma aplicação que simula um site de anún
 Testaremos as suas habilidades de desenvolvedor além de outros aspectos como: qualidade do código, capacidade de abstração, fidelidade na reprodução do layout e boa documentação. 
 
 A stack utilizada no desafio **deve ser** PHP (Laravel) no backend e VueJS no frontend;
+
+**Caso você não saiba uma das linguagens, pode desenvolver a aplicação utilizando a que lhe convir, porém, só será avaliada se for PHP(Laravel) no backend e VueJS no fronted.
 
 E aí, tá afim?
 

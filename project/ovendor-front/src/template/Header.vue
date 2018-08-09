@@ -8,14 +8,14 @@
                     </div>
                 </a>
             </div>
-            <div class="col-6">
+            <div class="col-7">
                 <nav class="nav pt-3 pl-0 justify-content-end ">
                     <a class="nav-link active" href="#">Anúncio</a>
                     <a class="nav-link" href="#">Ajuda</a>
                     <a class="nav-link" href="#">Minha Conta</a>
                 </nav>
             </div>
-            <div class="col-3">
+            <div class="col-2">
                 <button type="button" class="btn btn-outline-dark botao-anuncio">
                         Crie seu anúncio!
                 </button>

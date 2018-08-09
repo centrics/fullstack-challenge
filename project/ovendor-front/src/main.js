@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Aprest from './component/Aprest.vue'
 
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'

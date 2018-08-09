@@ -3,9 +3,7 @@
         <div class="row">
             <div class="col-3">
                 <a href="#">
-                    <div class="logo">
-                        <h1>ovendor.com :)</h1>
-                    </div>
+                    <img src="../assets/logo.png" class="img-fluid">
                 </a>
             </div>
             <div class="col-7">
@@ -41,13 +39,6 @@
 $cor_logo: white;
 $cor_fundo: rgb(26,188,156);
 
-.logo{
-    color: $cor_logo;
-    background-color: $cor_fundo;
-    font-weight: bold;
-    border-radius: 4px;
-    padding: 4px 4px 2px 2px;
-}
 
 .botao-anuncio{
     padding: 13px 20px 13px 20px;

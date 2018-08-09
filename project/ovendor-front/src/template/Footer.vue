@@ -52,7 +52,6 @@
 footer{
     background-color: rgb(52,73,94);
     color: white;
-    position: fixed;
     bottom: 0px;
     height: 380px;
     padding-top: 70px;

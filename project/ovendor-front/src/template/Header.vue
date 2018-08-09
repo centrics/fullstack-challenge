@@ -10,9 +10,11 @@
             </div>
             <div class="col-7">
                 <nav class="nav pt-3 pl-0 justify-content-end ">
-                    <a class="nav-link active" href="#">Anúncio</a>
-                    <a class="nav-link" href="#">Ajuda</a>
-                    <a class="nav-link" href="#">Minha Conta</a>
+                    <ul>
+                        <li><router-link to="/">Anúncio</router-link> </li>
+                        <li><router-link to="/categoria">Ajuda</router-link></li>
+                        <li><router-link to="/">Minha conta</router-link></li>
+                    </ul>
                 </nav>
             </div>
             <div class="col-2">
@@ -53,13 +55,18 @@ $cor_fundo: rgb(26,188,156);
     border-width: 2px;
 }
 
-.nav a {
-    color: rgb(65, 190, 221);
-    font-weight: bold;
-
-    :hover {
-
-    }
+.nav ul {
+    width: 100%;
+    text-align: right;
+        li{
+            display: inline;
+            margin-left: 3%;
+                a {
+                    color: rgb(65, 190, 221);
+                    font-weight: bold;
+                }
+        }
+    
 }
 
 </style>

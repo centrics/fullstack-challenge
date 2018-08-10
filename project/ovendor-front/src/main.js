@@ -13,12 +13,13 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 // font awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.use(BootstrapVue);
 Vue.use(VueRouter);
-library.add(faCoffee)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+library.add(faUser);
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false
 

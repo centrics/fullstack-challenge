@@ -1,32 +1,26 @@
 <template>
     <footer class="container-fluid">
-        <div class="row logo-footer">
+        <div class="row logo-footer text-left">
             <div class="col-3">
                 <a href="#">
                     <div class="logo">
-                        <h1>ovendor.com :)</h1>
+                        <h2>ovendor.com :)</h2>
                     </div>
                 </a>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-3">
-          
-                <ul>
-                    <li>Política de Responsabilidade</li>
-                    <li>Ajuda</li>
-                    <li>Minha conta</li>
-                    <li>Anúncios</li>
-                </ul>
-
+            <div class="col-3 d-flex flex-column align-items-start">
+                <a href=""><span>Política de Responsabilidade</span></a>
+                <a href=""><span>Ajuda</span></a>
+                <a href=""><span>Minha conta</span></a>
+                <a href=""><span>Anúncios</span></a>
             </div>
-            <div class="col-3">
-                <ul>
-                    <li>Trabalhe conosco</li>
-                    <li>Pesquisas populares</li>
-                    <li>Dicas para sua negociação</li>
-                </ul>
+            <div class="col-3 d-flex flex-column align-items-start">
+                <a href=""><span>Trabalhe conosco</span></a>
+                <a href=""><span>Pesquisas populares</span></a>
+                <a href=""><span>Dicas para sua negociação</span></a>
             </div>
             <div class="col-6">
                 facebook
@@ -47,7 +41,7 @@
     }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 
 footer{
     background-color: rgb(52,73,94);
@@ -58,7 +52,17 @@ footer{
 }
 
 .logo-footer {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+a{  
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+    :hover{
+        color: white;
+    }
 }
 
 </style>

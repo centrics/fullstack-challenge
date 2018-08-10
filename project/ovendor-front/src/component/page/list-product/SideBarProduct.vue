@@ -1,9 +1,14 @@
 <template>
     <div class="card mb-3" >
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h5 class="card-title">Dark card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card-header d-flex align-items-center justify-content-center"><strong><h5>Filtre sua pesquisa </h5> </strong> </div>
+            <input type="text" class="form-control sidebar-input">
+        
+        <div class="card-body d-flex flex-column align-items-start">
+            <a href=""><span>Carros</span></a>
+            <a href=""><span>Motos</span></a>
+            <a href=""><span>Aluguel de imóveis</span></a>
+            <a href=""><span>Eletrônicos</span></a>
+            <a href=""><span>Para sua casa</span></a>
         </div>
     </div>
 </template>
@@ -19,5 +24,40 @@ export default {
 </script>
 
 <style lang="scss">
+.sidebar-input{
+    border-radius: 0px;
+    height: 40px;
 
+    :focus{
+        border-color: transparent;
+    }
+}
+
+</style>
+
+<style scoped lang="scss">
+$altura: 13px;
+
+.card-header {
+    height: 100px;
+}
+
+.card-header {
+    background-color: white;
+}
+
+.card-body {
+    padding: 0px 0px 0px 0px;
+}
+
+a{
+    width: 100%;
+    text-align: left;
+    padding-left: 5%;
+    border: 1px solid #d2d6de;
+    padding-top: $altura;
+    padding-bottom: $altura;
+    font-size: 18px;
+
+}
 </style>

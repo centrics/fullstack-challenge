@@ -5,9 +5,11 @@
         </div>
         <div class="col-9">
             
-            <app-list-itens v-for="product in products" 
+            <app-list-itens v-for="product in products"
+                :key="product.cod" 
                 :price="product.price" 
-                :title="product.title"></app-list-itens>
+                :title="product.title"
+                :time="product.time"></app-list-itens>
 
         </div>
     </div>
@@ -30,27 +32,34 @@ export default {
                 {
                     cod: 1,
                     title: 'Carro 0 novo e barato só aqui',
-                    price: 120
+                    price: 120,
+                    time: 'otem 22:22'
                 },
                 {
                     cod: 2,
                     title: 'Moto 0 novo e Legal só aqui',
-                    price: 1201
+                    price: 1201,
+                    time: 'otem 22:22'
+
                 },
                 {
                     cod: 3,
                     title: 'Casa 0 novo e barato só aqui',
-                    price: 420
+                    price: 420,
+                    time: 'otem 22:22'
+
                 },
                 {
                     cod: 4,
                     title: 'Carro 0 nada ve com a vida e barato só aqui',
-                    price: 12120
+                    price: 12120,
+                    time: 'otem 22:22'
                 },
                 {
                     cod: 5,
                     title: 'Carro 0 um dia compro e barato só aqui',
-                    price: 820
+                    price: 820,
+                    time: 'otem 22:22'
                 },
             ]
         }

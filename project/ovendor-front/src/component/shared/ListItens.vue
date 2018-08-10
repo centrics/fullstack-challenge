@@ -2,16 +2,16 @@
     <div class="card card-item mb-3">
         <div class="card-body">
             <div class="row">
-                <div class="col-3 text-center">
+                <div class="col-3">
                     <img src="../../assets/sem-foto.png" class="img-thumbnail">
                 </div>
-                <div class="col-7 text-left ">
+                <div class="col-7 text-left card-information">
                     <div class="col-12 pl-0">
                         <h4 class="mt-2">{{ title }}</h4>
                     </div>
-                    <div class="col-12 pl-0">
-                        <router-link to="/" class="btn-sm btn btn-secondary btn-category"> <font-awesome-icon icon="coffee" /> Caffee</router-link>
-                        
+                    <div class="d-flex align-items-end">
+                        <router-link to="/" class="btn-sm btn btn-secondary btn-category mr-2"> <font-awesome-icon icon="user" /> Caffee</router-link>
+                        <i>{{ time }}</i>
                         
                     </div>
 
@@ -27,7 +27,7 @@
 <script>
 export default {
 
-    props: ['title', 'price'],
+    props: ['title', 'price', 'time'],
 
     data () {
         return {
@@ -41,10 +41,16 @@ export default {
     height: 180px;
 }
 
+.card-body div{
+    height: 50px;
+}
 .btn-category{
     background-color: rgb(210,214,222);
     border-color: rgb(210,214,222);
     color: black;
     border-radius: 200px;
+}
+
+.card-information {
 }
 </style>

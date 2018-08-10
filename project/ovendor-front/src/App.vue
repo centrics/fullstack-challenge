@@ -1,12 +1,8 @@
 <template>
   <div>
-    <div class="container-fluid" >
-      <app-header></app-header>
-      <app-content></app-content>
-    </div>
-    <div>
-      <app-footer></app-footer>
-    </div>
+    <app-header></app-header>
+    <app-content></app-content>
+    <app-footer></app-footer>
   </div>
   
 </template>

@@ -1,29 +1,40 @@
 <template>
-    <div class="container-fluid row">
-        <div class="col-3 pr-0">
-            <app-sidebar-product></app-sidebar-product>
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-3 pr-0"> </div>
+            <div class="col-9 text-left"> <small>122 encontrados</small></div>
         </div>
-        <div class="col-9">
-            
-            <app-list-itens v-for="product in products"
-                :key="product.cod" 
-                :price="product.price" 
-                :title="product.title"
-                :time="product.time"></app-list-itens>
+        <div class="row">
+            <div class="col-3">
+                <app-sidebar>
+                    <app-sidebar-product></app-sidebar-product>
+                </app-sidebar>
+            </div>
+            <div class="col-9">
+                
+                <app-list-itens v-for="product in products"
+                    :key="product.cod" 
+                    :price="product.price" 
+                    :title="product.title"
+                    :time="product.time"></app-list-itens>
 
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-import SideBarProductVue from './SideBarProduct.vue';
+import SideBarProduct from './SideBarProduct.vue';
+import SideBar from '../../shared/SideBar.vue'
 import ListItens from '../../shared/ListItens.vue'
 
 export default {
 
     components: {
-        'app-sidebar-product': SideBarProductVue,
-        'app-list-itens': ListItens
+        'app-sidebar-product': SideBarProduct,
+        'app-list-itens': ListItens,
+        'app-sidebar': SideBar,
+        
     },
 
     data () {

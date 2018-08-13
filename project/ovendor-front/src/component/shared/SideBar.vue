@@ -1,10 +1,9 @@
 <template>
-    <div class="card-body d-flex flex-column align-items-start">
-        <a href=""><span>Carros</span></a>
-        <a href=""><span>Motos</span></a>
-        <a href=""><span>Aluguel de imóveis</span></a>
-        <a href=""><span>Eletrônicos</span></a>
-        <a href=""><span>Para sua casa</span></a>
+    <div class="card mb-3" >
+        <div class="card-header d-flex align-items-center justify-content-center"><strong><h5>Filtre sua pesquisa </h5> </strong> </div>
+            <input type="text" class="form-control sidebar-input">
+        
+        <slot></slot>
     </div>
 </template>
 

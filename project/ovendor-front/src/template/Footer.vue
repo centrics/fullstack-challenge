@@ -3,7 +3,7 @@
         <div class="row logo-footer text-left">
             <div class="col-3">
                 <a href="#">
-                    <div class="logo">
+                    <div class="logo-footer">
                         <h2>ovendor.com :)</h2>
                     </div>
                 </a>
@@ -22,10 +22,12 @@
                 <a href=""><span>Pesquisas populares</span></a>
                 <a href=""><span>Dicas para sua negociação</span></a>
             </div>
-            <div class="col-6">
-                facebook
-                Youtube
-                Twitter
+            <div class="col-6 icon-footer">
+                <font-awesome-icon :icon="{prefix: 'fab', iconName: 'facebook-square'}" />
+                <font-awesome-icon :icon="{prefix: 'fab', iconName: 'twitter-square'}" />
+                <font-awesome-icon :icon="{prefix: 'fab', iconName: 'twitter-square'}" />
+                <font-awesome-icon :icon="{prefix: 'fab', iconName: 'youtube'}" />
+                <font-awesome-icon :icon="{prefix: 'fab', iconName: 'google-plus-square'}" />
             </div>
         </div>
     </footer>
@@ -43,6 +45,10 @@
 
 <style scoped lang="scss">
 
+.icon-footer{
+    font-size: 50px;
+    color: rgb(49, 173, 142);
+}
 footer{
     background-color: rgb(52,73,94);
     color: white;
@@ -53,6 +59,7 @@ footer{
 
 .logo-footer {
     margin-bottom: 20px;
+    color: rgb(49, 173, 142);
 }
 
 a{  

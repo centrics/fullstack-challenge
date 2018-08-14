@@ -15,18 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/produtos', function () {
+Route::get('/categoria/carro', function () {
     
     $list = [
         ["title" => "Carro 0 baratin só aqui", "price" => "120"],
         ["title" => "Bike da hora 0 baratin só aqui", "price" => "12"],
         ["title" => "nen sie oq é 0 baratin só aqui", "price" => "3122"],
         ["title" => "BMW loca baratin", "price" => "2122"],
-        ["title" => "pc mó caro 0 só aqui", "price" => "9999"],
-    ];
-
-    $response = [
-        'product' => $list
+        ["title" => "c mó caro 0 só aqui", "price" => "9999"],
     ];
 
     return response()->json($list, 200);

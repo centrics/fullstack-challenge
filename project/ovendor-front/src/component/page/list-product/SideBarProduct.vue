@@ -1,10 +1,10 @@
 <template>
     <div class="card-body d-flex flex-column align-items-start">
-        <a href=""><span>Carros</span></a>
-        <a href=""><span>Motos</span></a>
-        <a href=""><span>Aluguel de imóveis</span></a>
-        <a href=""><span>Eletrônicos</span></a>
-        <a href=""><span>Para sua casa</span></a>
+        <router-link to="/categoria/carro"><font-awesome-icon icon="car" />  <span>Carros</span></router-link>
+        <a href=""><font-awesome-icon icon="motorcycle" />  <span>Motos</span></a>
+        <a href=""><font-awesome-icon icon="building" />  <span>Aluguel de imóveis</span></a>
+        <a href=""><font-awesome-icon icon="desktop" />  <span>Eletrônicos</span></a>
+        <a href=""><font-awesome-icon icon="home" />  <span>Para sua casa</span></a>
     </div>
 </template>
 
@@ -14,6 +14,7 @@ export default {
 </script>
 
 <style lang="scss">
+    placeh
 .sidebar-input{
     border-radius: 0px;
     height: 40px;

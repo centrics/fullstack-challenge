@@ -1,7 +1,10 @@
 <template>
     <div class="card mb-3" >
-        <div class="card-header d-flex align-items-center justify-content-center"><strong><h5>Filtre sua pesquisa </h5> </strong> </div>
-            <input type="text" class="form-control sidebar-input">
+        <div class="card-header d-flex align-items-center justify-content-center">
+            <strong><h5>Filtre sua pesquisa</h5></strong> 
+        </div>
+        
+        <input type="text" class="form-control sidebar-input" placeholder="Busque por palavra-chave">
         
         <slot></slot>
     </div>
@@ -13,10 +16,14 @@ export default {
 </script>
 
 <style lang="scss">
+::placeholder {
+    color: grey;
+    opacity: 0,5;
+}
+
 .sidebar-input{
     border-radius: 0px;
     height: 40px;
-
     :focus{
         border-color: transparent;
     }
@@ -28,7 +35,7 @@ export default {
 $altura: 13px;
 
 .card-header {
-    height: 100px;
+    height: 70px;
 }
 
 .card-header {

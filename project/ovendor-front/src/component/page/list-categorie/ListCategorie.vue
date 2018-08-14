@@ -36,20 +36,51 @@ export default {
         'app-sidebar': SideBar
     },
 
-    created() {
-        var url = 'http://127.0.0.1:8000/produtos';
-        fetch(url)
-        .then( response => {
-            return response.json();
-        }).
-        then(data => {
-            this.products = data;
-        })
+    beforeMount() {
+        fetch('http://127.0.0.1:8000/categoria/carro', {
+            method: 'GET'
+       })
+        .then( response => 
+            console.log(response)
+        )
     },
 
     data () {
         return {
-            products: []
+            products: [
+                {
+                    cod: 1,
+                    title: 'Carro 0 novo e barato só aqui',
+                    price: 120,
+                    time: 'otem 22:22'
+                },
+                {
+                    cod: 2,
+                    title: 'Moto 0 novo e Legal só aqui',
+                    price: 1201,
+                    time: 'otem 22:22'
+
+                },
+                {
+                    cod: 3,
+                    title: 'Casa 0 novo e barato só aqui',
+                    price: 420,
+                    time: 'otem 22:22'
+
+                },
+                {
+                    cod: 4,
+                    title: 'Carro 0 nada ve com a vida e barato só aqui',
+                    price: 12120,
+                    time: 'otem 22:22'
+                },
+                {
+                    cod: 5,
+                    title: 'Carro 0 um dia compro e barato só aqui',
+                    price: 820,
+                    time: 'otem 22:22'
+                },
+            ]
         }
     }
 }

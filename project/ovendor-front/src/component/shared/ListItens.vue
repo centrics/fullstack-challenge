@@ -7,7 +7,9 @@
                 </div>
                 <div class="col-7 text-left card-information">
                     <div class="col-12 pl-0">
-                        <h4 class="mt-2">{{ title }}</h4>
+                        <router-link to="/produto">
+                            <h4 class="mt-2">{{ title }}</h4>
+                        </router-link>
                     </div>
                     <div class="d-flex align-items-end">
                         <router-link to="/" class="btn-sm btn btn-secondary btn-category mr-2"> <font-awesome-icon icon="user" /> Caffee</router-link>

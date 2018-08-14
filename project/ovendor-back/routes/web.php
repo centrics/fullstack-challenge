@@ -31,3 +31,5 @@ Route::get('/categoria/carro', function () {
 Route::get('/produtos/{id}', function ( $id ) {
     return 'Hellow word '. $id;
 });
+
+Route::get('/products', [ 'uses' => 'ProductController@getProducts']);

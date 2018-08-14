@@ -37,42 +37,21 @@ export default {
         
     },
 
+    created() {
+        fetch('http://127.0.0.1:8000/products', {
+            method: 'GET'
+       })
+        .then( response => {
+            return response.json();
+        })
+        .then( data => {
+            this.products = data.products;
+        }) 
+    },
+
     data () {
         return {
-            products: [
-                {
-                    cod: 1,
-                    title: 'Carro 0 novo e barato só aqui',
-                    price: 120,
-                    time: 'otem 22:22'
-                },
-                {
-                    cod: 2,
-                    title: 'Moto 0 novo e Legal só aqui',
-                    price: 1201,
-                    time: 'otem 22:22'
-
-                },
-                {
-                    cod: 3,
-                    title: 'Casa 0 novo e barato só aqui',
-                    price: 420,
-                    time: 'otem 22:22'
-
-                },
-                {
-                    cod: 4,
-                    title: 'Carro 0 nada ve com a vida e barato só aqui',
-                    price: 12120,
-                    time: 'otem 22:22'
-                },
-                {
-                    cod: 5,
-                    title: 'Carro 0 um dia compro e barato só aqui',
-                    price: 820,
-                    time: 'otem 22:22'
-                },
-            ]
+            products: []
         }
     }
 }

@@ -14,7 +14,6 @@ export default {
 </script>
 
 <style lang="scss">
-    placeh
 .sidebar-input{
     border-radius: 0px;
     height: 40px;
@@ -23,7 +22,6 @@ export default {
         border-color: transparent;
     }
 }
-
 </style>
 
 <style scoped lang="scss">

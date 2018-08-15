@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App;
 
 class ProductController extends Controller 
 {
@@ -12,7 +13,16 @@ class ProductController extends Controller
         $response = [
             'products' => $products
         ];
-
         return response()->json($response, 200);
+    }
+
+    public function getProductsCarros() 
+    {
+        $products = Product::all()->where('categorie', '1');
+        $response = [
+            'products' => $products
+        ];
+        return response()->json($response, 200);
+        
     }
 }

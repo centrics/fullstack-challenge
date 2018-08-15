@@ -14,9 +14,7 @@
                 
                 <app-list-itens v-for="product in products"
                     :key="product.cod" 
-                    :price="product.price" 
-                    :title="product.title"
-                    :time="product.time"></app-list-itens>
+                    :product="product" ></app-list-itens>
 
             </div>
         </div>

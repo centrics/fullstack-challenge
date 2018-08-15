@@ -1,5 +1,5 @@
 <template>
-    <nav class="container-fluid row">
+    <div class="container-fluid row">
         <div class="col-3">
             <router-link to="/">
                 <img src="../assets/logo.png" class="img-fluid">
@@ -19,7 +19,7 @@
                     Crie seu anúncio!
             </button>
         </div>
-    </nav>
+    </div>
 </template>
 
 <script>

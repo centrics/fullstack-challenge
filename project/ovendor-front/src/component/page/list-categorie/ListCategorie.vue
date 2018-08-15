@@ -14,9 +14,7 @@
             <div class="col-9">
                 <app-list-itens v-for="product in products"
                     :key="product.cod" 
-                    :price="product.price" 
-                    :title="product.title"
-                    :time="product.time"></app-list-itens>
+                    :product="product"></app-list-itens>
             </div>
         </div>
     </div>
@@ -37,15 +35,16 @@ export default {
     },
 
     beforeMount() {
-        fetch('http://127.0.0.1:8000/categoria/carro', {
+        fetch('http://127.0.0.1:8000/products/carros', {
             method: 'GET'
        })
         .then( response => {
             return response.json();
         })
-        .then( data => {
-            this.products = data;
+        .then(data => {
+            this.products = data.products;
         }) 
+
     },
 
     data () {

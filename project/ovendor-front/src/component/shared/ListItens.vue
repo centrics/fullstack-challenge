@@ -7,7 +7,7 @@
                 </div>
                 <div class="col-7 text-left card-information">
                     <div class="col-12 pl-0">
-                        <router-link to="/produto">
+                        <router-link :to="'/produto'">
                             <h4 class="mt-2">{{ product.title }}</h4>
                         </router-link>
                     </div>
@@ -17,7 +17,7 @@
                         <router-link v-if="product.categorie === 2" to="/" class="btn-sm btn btn-secondary btn-category mr-2"> <font-awesome-icon icon="motorcycle" /> Caffee</router-link>
                         <router-link v-if="product.categorie === 3" to="/" class="btn-sm btn btn-secondary btn-category mr-2"> <font-awesome-icon icon="building" /> Caffee</router-link>
                         <router-link v-if="product.categorie === 4" to="/" class="btn-sm btn btn-secondary btn-category mr-2"> <font-awesome-icon icon="desktop" /> Caffee</router-link>
-                        <router-link v-if="product.categorie === 4" to="/" class="btn-sm btn btn-secondary btn-category mr-2"> <font-awesome-icon icon="home" /> Caffee</router-link>
+                        <router-link v-if="product.categorie === 5" to="/" class="btn-sm btn btn-secondary btn-category mr-2"> <font-awesome-icon icon="home" /> Caffee</router-link>
                         
                         <i>{{ 'hoje ' }}</i>
                         

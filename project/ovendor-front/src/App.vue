@@ -1,8 +1,10 @@
 <template>
   <div>
-    <app-header></app-header>
-    <app-content></app-content>
-    <app-footer></app-footer>
+    <div class="container-ovendor">
+      <app-header></app-header>
+      <app-content></app-content>
+    </div>
+      <app-footer></app-footer>
   </div>
   
 </template>
@@ -32,9 +34,9 @@ export default {
 </script>
 
 <style lang="scss">
-.container-fluid {
+.container-ovendor {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  text-align: center;
+  width: 1300px;
   margin-top: 60px;
 }
 

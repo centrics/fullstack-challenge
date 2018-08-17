@@ -3,7 +3,7 @@
     <div class="container-fluid ">
         <div class="row mb-2">
             <div class="col-3 pr-0"> </div>
-            <div class="col-9 text-left"> <small>122 encontrados</small></div>
+            <div class="col-9 text-left"> <small>{{ products.length }} encontrados</small></div>
         </div>
         <div class="row">
             <div class="col-3">
